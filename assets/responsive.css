@@ -1,0 +1,106 @@
+/* for only make Template's responsive */
+@media screen and (max-width: 767px )  /* for set the screen min and max */
+{
+	header
+	{
+		width: 100%;
+		text-align: center;
+	}
+	.main-head
+	{
+		width: 100%;
+		text-align: center;
+	}
+	header .main-head .firsthead
+	{
+		width: 100%;
+		text-align: center;
+	}
+
+	header #adv /* was ist #adv und für was ?*/
+	{
+		width: 100%;
+		float: none;
+		margin-top: 0px;
+	}
+	/* für Menu-responsive*/
+
+	#myres-menu
+		{
+			width: 100%;
+			overflow: hidden;
+			background-color: #ABABAB;
+			position: relative;
+		}
+		#myres-menu li:not(:first-child)
+		{
+			display: none;
+		}
+		#myres-menu li a
+		{
+			width: 100%;
+		}
+		#myres-menu #icon
+		{
+			display: block; /*damit die zeigen abdecken*/
+			position: absolute;
+			right: 0px;
+			top: 0px;
+		}
+		.respon li /* wo haben wir diesem klasse*/
+		{
+			display: block !important;
+			float: none !important;
+		}
+
+
+/* für die Slidebar einsetzen*/
+	.slideer
+	{
+		width: 100%;
+		border:none;
+	}
+	/*
+	#left
+	{
+	  overflow: hidden;
+	  width: 20px;
+	  position: absolute;
+	  font-size: 20px;
+	  top:50px;
+	  background-color: #ffffff;
+	  cursor: pointer;
+	}
+	#right
+	{
+	  overflow: hidden;
+	  width: 20px;
+	  position: absolute;
+	  font-size: 20px;
+	  top:50px;
+	  background-color: #ffffff;
+	  right: 0px;
+	  text-align: right;
+	  cursor: pointer;
+	}
+
+	#contant
+	{
+	  width: 100%;
+	  border:none;
+	}
+	#post
+	{
+	  width: 42%;
+	  overflow: hidden;
+	  float: left;
+	  margin: 3%;
+	  border:solid 1% #000000;
+	}
+	#post img
+	{
+	  width: 100%;
+	  margin-bottom: -4px;
+	}
+}
+*/

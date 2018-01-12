@@ -1,0 +1,162 @@
+/*for Register Template*/
+body
+{
+  background-color: #fffff;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+figure
+{
+  width: 800px;
+  height: auto;
+  margin: 10px;
+  padding: 5px;
+}
+
+figure .register
+{
+  width: 100%;
+  height: 600px;
+  margin: 10px;
+  padding: 0px;
+
+}
+
+fieldset
+{
+
+  font-size: 18px bold;
+  padding-bottom: 10px;
+  padding-left:20px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.control-re
+{
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+}
+.control-re label
+{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-style: 18px bold;
+  padding-right: 10px;
+  margin: 5px;
+}
+.control-re input[type=text]
+{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+.email-re label
+{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-style: 18px bold;
+  padding-right: 10px;
+}
+
+.email-re input[type=email]
+{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+.date-re label
+{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-style: 18px bold;
+  padding-right: 10px;
+}
+.date-re input[type=text]
+{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+}
+.gender-re label
+{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-style: 18px bold;
+  padding-right: 10px;
+}
+.gender-re input[type=radio]
+{
+  width: 10%;
+  padding: 12px 0px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+}
+.password-re label
+{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-style: 18px bold;
+  padding-right: 10px;
+}
+.password-re input[type=password]
+{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+input[type=email],input[type=text],input[type=radio],input[type=password]:focus
+{
+  background-color:#CCCCCC;
+}
+
+.submit-re
+{
+  float: left;
+  width: 100%;
+  margin:10px;
+  padding-left: 56px;
+}
+.submit-re input
+{
+  width: 25%;
+  padding: 7px;
+  margin: 13px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #ABABAB;
+  resize: none;
+  font: 16px bold;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-decoration: none;
+}
+.submit-re input:hover
+{
+  background-color: #CCCCCC;
+}
+#back-re
+{
+  margin-right: 20px;
+}
+#back-re a
+{
+  float: right;
+  padding: 9px;
+  font: 16px bold;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #ABABAB;
+  resize: none;
+  text-decoration: none;
+
+}
+#back-re a:hover
+{
+  background-color: #E5F1FB;
+}

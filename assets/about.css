@@ -1,0 +1,37 @@
+/* for About-Template */
+
+/* for Article post*/
+article
+	{
+		overflow: hidden;
+		width: 1000px;
+		margin: auto;
+	}
+	article #paragraph
+	{
+		width: 100%;
+		overflow: hidden;
+
+	}
+
+	article #paragraph h4
+	{
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 26px;
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	}
+	article #paragraph p
+	{
+
+		margin: 5px;
+		padding: 15px;
+		text-align: justify;
+		box-sizing: border-box;
+		width: 100%;
+		height: 400px;
+		font-size: 24px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+		display: inline-block;
+		color: #00000;
+	}

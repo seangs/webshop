@@ -1,0 +1,62 @@
+/* for contact Template */
+
+.contact
+{
+  width: 1000px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+  letter-spacing: 1px;
+}
+
+.contact img
+{
+  padding-top: 20px;
+  float: left;
+  margin: 2px;
+  width: 35%;
+
+}
+.contact #top
+{
+  margin-top: 50px;
+  margin: 0px;
+  padding: 5px;
+}
+.contact #top p
+{
+  text-align: center;
+  font-weight: bold;
+  float: right;
+  background-color:#006378;
+  width: 60%;
+  font-size: 25px;
+  font-weight: 2px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding: 15px;
+}
+
+.contact ul
+{
+  height: 250px;
+  margin: 0px;
+  padding: 15px;
+  width: 60%;
+  background-color: #F7F7F7;
+  float: right;
+  margin-top:-25px;
+  list-style: none;
+
+}
+.contact ul li
+{
+  font-size: 25px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.contact ul li img
+{
+  width:7%;
+  float: left;
+  padding-right: 10px;
+}

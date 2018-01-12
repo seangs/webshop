@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logins>
+    <login>
+        <username>sotheary</username>
+        <password>12345</password>
+    </login>
+    <login>
+        <username>shopadmin</username>
+        <password>12345</password>
+    </login>
+</logins>
